@@ -14,7 +14,11 @@
   Then alert your name using dot notation.
 */
 
-//Code here
+const me = {
+    name: 'Ethan',
+    age: 26
+}
+alert(me.name)
 
 ////////// PROBLEM 2 //////////
 
@@ -23,7 +27,14 @@
   Have the values to those keys be strings that are equal to your favorite thing in that category.
 */
 
-//Code here
+const favoriteThings = {
+  band: 'Coldplay',
+  food: 'Burritos',
+  person: 'Me',
+  book: 'Twilight',
+  movie: 'Lion King',
+  holiday: 'Christmas'
+}
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
@@ -31,6 +42,8 @@
 */
 
 //Code here
+favoriteThings.car = 'Tesla'
+favoriteThings.brand = 'Converse'
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -38,6 +51,8 @@
 */
 
 //Code here
+favoriteThings['food'] = 'Chicken Nuggets'
+favoriteThings.book = 'Harry Potter'
 
 ////////// PROBLEM 3 //////////
 
@@ -49,13 +64,22 @@
   Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack.
 */
 
-//Code here
+const backPack = {
+
+}
+
+const item = 'firstPocket'
+
+backPack[item] = 'chapstick'
+backPack.color = 'blue'
+
 
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
+// alert(backPack)
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -64,6 +88,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
+console.log(backPack)
 
 ////////// PROBLEM 4 //////////
 
@@ -85,6 +110,8 @@ var user2 = {
 */
 
 //Code Here
+user2.name = 'Bryan G. Smith'
+user2['email'] = 'bryan.smith@devmounta.in'
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
@@ -96,6 +123,9 @@ var user2 = {
 */
 
 //Code Here
+const methodCollection{
+
+}
 
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
@@ -103,6 +133,7 @@ var user2 = {
 */
 
 //Code Here
+
 
 /*
   Now call your alertHello and logHello methods.
@@ -118,6 +149,14 @@ var user2 = {
 */
 
 //Code Here
+function makePerson(name, birthday, ssn){
+  const newObj = {
+    name, birthday, ssn
+  }
+  return newPerson
+}
+const newPerson = makePerson('Tim', 'Yesterday', '000-00-0000')
+
 
 ////////// PROBLEM 7 //////////
 
