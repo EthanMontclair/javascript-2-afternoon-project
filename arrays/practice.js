@@ -18,9 +18,8 @@ var arr = [10,20,30];
 */
 
 function first(arr){
-  return arr[0]
+  return arr.shift()
 }
-first()
 
 ////////// PROBLEM 2 //////////
 
@@ -34,9 +33,8 @@ var arr = [40,50,60];
 */
 
 function last(arr){
-  return arr[2]
+  return arr.pop()
 }
-last()
 
 
 ////////// PROBLEM 3 //////////
@@ -71,12 +69,10 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 */
 
 function reversedLooper(letters){
- for (let i = letters.length - 1; i >= 0; i--) {
-    alert(letters[i])
- }
+  for(let e = letters.length-1; e >= 0; e--){
+  alert(letters[e])
+  }
 }
-
-
 
 ////////// PROBLEM 5 //////////
 
@@ -124,9 +120,6 @@ var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
 function divider(numbersArray){
   const evensArray = []
   const oddsArray = []
-  for (let i = 0; i < nums.length; i++) {
-    
-  }
 }
 
 

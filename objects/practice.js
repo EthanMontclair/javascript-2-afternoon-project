@@ -28,12 +28,12 @@ alert(me.name)
 */
 
 const favoriteThings = {
-  band: 'Coldplay',
-  food: 'Burritos',
-  person: 'Me',
-  book: 'Twilight',
-  movie: 'Lion King',
-  holiday: 'Christmas'
+  band: 'Pink Floyd',
+  food: 'Pizza',
+  person: 'Ma',
+  book: 'The Hobbit',
+  movie: 'Arrival',
+  holiday: '4th of July'
 }
 
 /*
@@ -151,7 +151,9 @@ const methodCollection{
 //Code Here
 function makePerson(name, birthday, ssn){
   const newObj = {
-    name, birthday, ssn
+    name: ,
+    birthday: ,
+    ssn: ,
   }
   return newPerson
 }
